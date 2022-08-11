@@ -9,11 +9,89 @@
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    <!-- google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/images/atech.jpg" type="image/x-icon">
+
+
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
 
-    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark p-4">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Amos <span class="text-warning">Pelumi</span></a>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-4">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link text-white" href="#aboutus">About Us</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link text-white">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
+
+      <!-- carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/head1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/head2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/head3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!-- about us -->
+
+      <div class="aboutus mt-5">
+          <div class="container">
+              <h1 class="text-dark text-center" id="aboutus">About Us</h1>
+              <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem deleniti assumenda, iusto, animi quo magni et consequuntur eligendi officia quidem, molestias tenetur provident voluptatibus. Modi ducimus commodi sed, dicta sit aliquid, quasi voluptatem unde quos ipsa, eos pariatur labore earum beatae eius vero odit ex minus. Fugit iste, itaque dolores, ab esse quia error aperiam deserunt sit architecto et! Id aperiam eum sed dolorum labore blanditiis animi veritatis neque ex mollitia asperiores delectus quos qui, vero totam maxime saepe? Nobis?</p>
+          </div>
+      </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
